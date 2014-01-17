@@ -32,3 +32,6 @@ android develop tools
     load data:
     mViewPager.onDataChange(imagePaths);
     
+## Compile & Install
+	mvn clean install
+	mvn install:install-file -Dfile=target/androidtools-1.0.apklib -DgroupId=com.bei.androidtools -DartifactId=androidtools -Dversion=1.0 -Dpackaging=apklib
