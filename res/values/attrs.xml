@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CarouselViewPager">
+        <attr name="imageScale_width" format="integer" />
+        <attr name="imageScale_height" format="integer" />
+        <!-- px -->
+        <attr name="paddingBottom" format="integer" />
+        <attr name="pageSelectDrawable" format="reference" />
+        <attr name="pageUnSelectDrawable" format="reference" />
+    </declare-styleable>
+</resources>
